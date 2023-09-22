@@ -1,0 +1,11 @@
+void *gp --> gp becomes a generic pointer
+
+int *ip --> int pointer
+gp = ip ; --> assign int pointer to generic pointer
+
+*ip = *gp ; --> illegal , it doesnot make any sense to dereferance a pointer to a void value
+
+all these are valid:- 
+void *ptr1;
+void *ptr2;
+ptr1 = ptr2;

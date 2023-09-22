@@ -1,0 +1,4 @@
+the class declarations are placed in a header file and the definations of member functions go into another file, finally the main program that uses the class is placed in a third file which "includes" the previous two files as well as any other files required.
+
+this approach is based on the concept of client-server model
+the class defination including the member functions constitute the server that provides services to the main program known as client. The client uses the server through the public interface of the class

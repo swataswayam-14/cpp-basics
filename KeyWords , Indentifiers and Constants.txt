@@ -1,0 +1,3 @@
+KeyWords : explicitly reserved indentifiers and cannot be used as names for the program variables or other user-defined program elements
+indentifiers : names of variables , functions , arrays , classes etc created by the programmer
+constants : refer to a fixed value that donot change during the execution of a program.
