@@ -14,4 +14,5 @@ int main(){
     return 0;
 }
 //multiple use of << in one statement is cascading
-//cascading input operator cin>>num1>>num2
+//cascading input operator cin>>num1>>num2 
+//the values are assigned from left to right

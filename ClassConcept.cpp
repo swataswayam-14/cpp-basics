@@ -23,8 +23,9 @@ void person :: display(void){
     cout << "\nAge: "<<age;
 }
 int main(){
-    person p;
+    person p;//p is an object of type person
     p.getdata();
     p.display();
     return 0;
 }
+//cin can read only one word and therefore we cannot use names with black spaces
